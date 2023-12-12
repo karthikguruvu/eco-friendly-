@@ -1,0 +1,33 @@
+.home-image{
+    opacity: 30%;
+    width: 100%;
+}
+.image-text{ 
+    position: absolute;
+    top: 40%;
+    left: 19%;
+    font-size:45px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: aliceblue;
+    transition: .3s ease-out;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.image-text:hover{
+    transform: scale(1.05);
+    color: rgb(248, 181, 45);
+    transition: .3s ease-in;
+
+}
+.home-image-border{
+    background-color: black;
+    height: 580px;
+    border-bottom: 5px solid white;
+}
+
+
+
+
+
+
